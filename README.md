@@ -15,6 +15,5 @@ https://github.com/Falciform-mv/tangerine-dream
 
 ## Documentation
 
-[Screenshot](![image](https://user-images.githubusercontent.com/85845397/124367060-c3ab2b00-dc19-11eb-8808-37971c33076f.png))
-
+![Screenshot](https://raw.githubusercontent.com/Falciform-mv/tangerine-dream/main/Assets/Images/screenshot.jpg)
   
