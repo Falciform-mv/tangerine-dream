@@ -80,7 +80,7 @@ nav ul li a {
     letter-spacing: 2px;
     color: var(--color-2);
     margin: 10px 0 10px 0;
-    width: 300px;
+    width: 250px;
 }
 
 button {
@@ -98,7 +98,7 @@ button {
     position: absolute;
     top: 50%;
     left: 20%;
-    
+    line-height: 25px;
     transform: translate(-50%, -50%);
 }
 
