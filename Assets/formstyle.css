@@ -23,7 +23,7 @@ h1 {
     letter-spacing: 2px;
     font-size: 52px;
     color: var(--color-2);
-    padding: 0 0 10px 0;
+    padding: 0 0 20px 0;
     display: inline;
 
 }
@@ -31,12 +31,31 @@ h1 {
 h2 {
     font-family: Karantina, cursive;
     letter-spacing: 4px;
-    font-size: 36px;
+    font-size: 45px;
     color: var(--color-2);
 }
 
+/* header elements */
+nav ul li {
+    display: inline;
+    float:right;
+    padding: 0 0 10px 50px;
+    margin: 0 0 20px 0;
+    font-family: Karantina, cursive;
+    font-size: 28px;
 
 
+}
+
+
+nav ul li a {
+    color: var(--color-2);
+   display: inline;
+   text-decoration: none;
+   
+}
+
+/* Hero banner content */
 .hero {
     background-image: linear-gradient(to right bottom, #D88E68, #28b48500), url(./Images/Indian-Valley.jpg);
     height: 50vh;
@@ -44,7 +63,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
+    margin: 30px 0 0 0;
    clip-path: polygon(0 0,100% 10vh, 100% 40vh, 0 100% );
 }
 
@@ -58,29 +77,37 @@ h2 {
     font-weight: lighter;
     font-family: Karantina, cursive;
     font-size: 28px;
+    letter-spacing: 2px;
     color: var(--color-2);
+    margin: 10px 0 10px 0;
 }
 
-nav ul li {
-    display: inline;
-    
-    
-}
-
-nav ul li a {
+button {
+    background-color: var(--color-3);
+    font-family: Karantina, cursive;
     color: var(--color-2);
-   display: inline;
-   text-decoration: none;
-   
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+
 }
 
 .textbox {
     position: absolute;
     top: 50%;
     left: 20%;
-    /* background-color: red; */
+    
     transform: translate(-50%, -50%);
 }
+
+
+/* Work section elements */
+
+.work {
+    margin: 20px 0 0 0;
+}
+
 
 section article {
     display:inline-block;
@@ -88,8 +115,16 @@ section article {
 }
 
 .portfolio-content {
-    clip-path: circle(25% at 50% 50%);
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 
+}
+
+.link-heading {
+    font-family: Karantina, cursive;
+    font-size: 32px;
+    color: var(--color-2);
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 @keyframes moveInLeft {
