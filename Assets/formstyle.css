@@ -80,6 +80,7 @@ nav ul li a {
     letter-spacing: 2px;
     color: var(--color-2);
     margin: 10px 0 10px 0;
+    width: 300px;
 }
 
 button {
@@ -105,7 +106,7 @@ button {
 /* Work section elements */
 
 .work {
-    margin: 50px 0 50px 0;
+    margin: 100px 0 50px 0;
 }
 
 
@@ -130,6 +131,25 @@ section article:hover {
     color: var(--color-2);
     text-align: center;
     letter-spacing: 2px;
+}
+
+.link-heading p {
+    display:inline;
+}
+
+
+/* contact section */
+
+.contact {
+    margin: 50px 0 50px 0;
+}
+
+.contact h2 {
+    margin: 20px 0 50px 0;
+}
+
+address a {
+    color: var(--color-2);
 }
 
 @keyframes moveInLeft {
@@ -165,4 +185,13 @@ section article:hover {
 
 
 
+}
+
+/* media for small screens */
+
+@media screen and (max-width: 950px) {
+    .textbox {
+        left: 50%;
+
+    } 
 }
