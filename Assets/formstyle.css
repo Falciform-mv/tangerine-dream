@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #D88E68;
+    --color-2: #ffffff;
+    --color-3: #24292e;
+    --color-4: #3c444d;
+}
+
+body {
+    width: 100%;
+    padding: 30px;
+    background-image: radial-gradient(var(--color-3), var(--color-4));
+}
+
+h1 {
+    font-family: Karantina, cursive;
+    letter-spacing: 2px;
+    font-size: 52px;
+    color: var(--color-2);
+    padding: 0 0 10px 0;
+    display: inline;
+
+}
+
+h2 {
+    font-family: Karantina, cursive;
+    letter-spacing: 4px;
+    font-size: 36px;
+    color: var(--color-2);
+}
+
+
+
+.hero {
+    background-image: linear-gradient(to right bottom, #D88E68, #28b48500), url(./Images/Indian-Valley.jpg);
+    height: 50vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+   clip-path: polygon(0 0,100% 10vh, 100% 40vh, 0 100% );
+}
+
+.heading-primary{
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+}
+
+.heading-sub {
+    animation: moveInRight .8s;
+    font-weight: lighter;
+    font-family: Karantina, cursive;
+    font-size: 28px;
+    color: var(--color-2);
+}
+
+nav ul li {
+    display: inline;
+    
+    
+}
+
+nav ul li a {
+    color: var(--color-2);
+   display: inline;
+   text-decoration: none;
+   
+}
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    /* background-color: red; */
+    transform: translate(-50%, -50%);
+}
+
+section article {
+    display:inline-block;
+    margin: 10px;
+}
+
+.portfolio-content {
+    clip-path: circle(25% at 50% 50%);
+
+}
+
+@keyframes moveInLeft {
+
+    0%{
+        transform: translateX(-100px);
+    }
+
+    80%{
+        transform: translateX(20px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes moveInRight{
+
+    0% {
+        transform: translateX(100px);
+        
+    }
+
+    80% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+
+
+}
