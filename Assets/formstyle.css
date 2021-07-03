@@ -114,6 +114,11 @@ section article {
     display:inline-block;
     margin: 10px 10px 10px 10px;
     padding: 10px;
+    
+}
+
+article a {
+    text-decoration: none;
 }
 
 section article:hover {
@@ -131,7 +136,10 @@ section article:hover {
     color: var(--color-2);
     text-align: center;
     letter-spacing: 2px;
+    
+    
 }
+
 
 .link-heading p {
     display:inline;
